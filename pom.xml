@@ -6,7 +6,17 @@
 
     <groupId>davlatbek</groupId>
     <artifactId>Autotests</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>autotest</module>
+        <module>wsdl-codegen</module>
+    </modules>
 
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <env>dev</env>
+    </properties>
 </project>
